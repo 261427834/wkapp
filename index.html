@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- 引入样式 -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>微课</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- 顶部 -->
+      <div class="wk-top-nav">
+        <div class="top-bar">
+          <div class="top-bar-wp">
+            <div class="top-bar-left left">
+              <ul>
+                <li>
+                  <span><a href="#">据家商城</a></span>
+                </li>
+                <li>
+                  <span><a href="#">据家商城</a></span>
+                </li>
+                <li>
+                  <span><a href="#">据家商城</a></span>
+                </li>
+                <li>
+                  <span><a href="#">据家商城</a></span>
+                </li>
+                <li>
+                  <span><a href="#">据家商城</a></span>
+                </li>
+              </ul>
+            </div>
+            <div class="top-bar-right right">
+              <ul>
+                <li>
+                  <span><a href="#">开通会员</a></span>
+                </li>
+                <li>
+                  <span><a href="#">推荐好友</a></span>
+                </li>
+                <li>
+                  <span><a href="#">商务合作</a></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 导航 -->
+        <div class="top-main ">
+          <!-- s上部 -->
+          <div class="search-section">
+            <!-- logo -->
+            <div class="top-logo">
+              <img src="img/top-logo.png" alt="logo" />
+            </div>
+            <div class="top-search">
+              <div class="input-search">
+                <div class="input-wp">
+                  <input type="text " placeholder="请输入内容" />
+                </div>
+                <!-- 面包屑导航 -->
+                <div class="search-tags">
+                  <ul>
+                    <li>
+                      <span><a href="#">雅思</a></span>
+                    </li>
+                    <li>
+                      <span><a href="#">雅思</a></span>
+                    </li>
+                    <li>
+                      <span><a href="#">雅思</a></span>
+                    </li>
+                    <li>
+                      <span><a href="#">雅思</a></span>
+                    </li>
+                    <li>
+                      <span><a href="#">雅思</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="top-user">
+              <div class="use-main">
+                <ul>
+                  <li>
+                    <a href="#">我的学习</a>
+                  </li>
+                  <li>
+                    <a href="#">我的工作</a>
+                  </li>
+                  <li>
+                    <a href="#">我的考试</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="sign-in">
+                <a href="#">登录</a>
+              </div>
+              <div class="user-icon">
+                <img src="img/user-icon.jpg" alt="用户头像">
+              </div>
+            </div>
+          </div>
+          <!-- 下部 -->
+          <div class="main-nav">
+            <div class="tab-nav">
+
+             <ul>
+               <li>
+                 <a href="">导航菜单</a>
+               </li>
+             </ul> 
+            </div>
+            <div class="drop-nav-wp">
+              <div class="drop-nav">
+                <ul>
+                  
+                  <li><a href="#">首页</a></li>
+                  <li><a href="#">发现课程</a></li>
+                  <li><a href="#">公开课直播</a></li>
+                  <li><a href="#">首页</a></li>
+                  <li><a href="#">首页</a></li>
+                  <li><a href="#">首页</a></li>
+                  <li><a href="#">首页</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 遮罩 -->
+        <div class="cover"></div>
+      </div>
+      <!-- 主体 -->
+      <div class="wk-main">
+        <div class="main-wp">
+          <!-- 下拉巨幕 -->
+          <div class="carousel-wp">
+            <img src="img/maincover.png" alt="">
+          </div>
+          <!-- 文字走马灯 -->
+          <div class="scroll">
+            <ul>
+              <li>
+                据家微课PC端上线啦！！！ 
+              </li>
+            </ul>
+          </div>
+          <!-- 中间部分 -->
+          <div class="container">
+            <!-- main-top 5个图框 -->
+            <div class="main-top">
+              <div class="main-top-item">
+              <h3>课程专栏</h3>
+              <span></span>
+              <p>好课一键 收入囊中</p>
+              </div>
+              <div class="main-top-item">
+                <h3>课程专栏</h3>
+                <span></span>
+                <p>好课一键 收入囊中</p>
+                </div>
+              <div class="main-top-item">
+                  <h3>课程专栏</h3>
+                  <span></span>
+                  <p>好课一键 收入囊中</p>
+              </div>
+              <div class="main-top-item">
+                <h3>课程专栏</h3>
+                <span></span>
+                <p>好课一键 收入囊中</p>
+            </div>
+            <div class="main-top-item">
+              <h3>课程专栏</h3>
+              <span></span>
+              <p>好课一键 收入囊中</p>
+          </div>
+              
+            </div>
+          </div>
+            <!-- 各栏目 -->
+            <!-- 到npm里写 -->
+            <div class="main-center">
+              <div class="main-center-box ">
+                <div class="main-box-title ">
+                  <h2 class=" left">热门推荐</h2>
+                  <span class="right"><a href="#">查看更多</a></span>
+                </div>
+                
+                <div class="main-box-wp">
+					      <!-- img -->
+                <img src="img2/热门推荐.png" >
+                
+				       </div>
+              </div>
+           
+            </div>
+            <!-- 教师 -->
+            <div class="main-teacher">
+              <div class="main-teacher-title">
+                讲师风采
+              </div>
+              <div class="main-teacher-con">
+                <ul class="item">
+                  <!-- 4个教师 -->
+                  <li>
+                    <img src="img/teacher1.png" alt="老师头像" />
+                    <h3>老师姓名</h3>
+                    <h5>老师头衔</h5>
+                    <p>老师技能</p>
+                  </li>
+				  <li>
+				    <img src="img/teacher2.png" alt="老师头像" />
+				    <h3>老师姓名</h3>
+				    <h5>老师头衔</h5>
+				    <p>老师技能</p>
+				  </li>
+				  <li>
+				    <img src="img/teacher3.png" alt="老师头像" />
+				    <h3>老师姓名</h3>
+				    <h5>老师头衔</h5>
+				    <p>老师技能</p>
+				  </li>
+				  <li>
+				    <img src="img/teacher4.png" alt="老师头像" />
+				    <h3>老师姓名</h3>
+				    <h5>老师头衔</h5>
+				    <p>老师技能</p>
+				  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- news -->
+      <div class="news">
+        <h2 class="news-title">最新资讯</h2>
+        <div class="news-item-wp">
+          <!-- 新闻6个 item -->
+          <ul>
+            <li class="news-item">
+              <img src="./img/newspci1.png" alt="新闻图片" />
+              <div class="news-con">
+                <h3 class="news-con-title">
+                  我校园内设的专业及院校科查看方式有哪些，入
+                </h3>
+                <p>大学录取通知书即普通高等院校给录取者发放的入学凭证</p>
+                <span>time </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="news-more">
+          <a href="#">查看更多</a>
+        </div>
+      </div>
+      <!-- 滑动出现的遮罩 -->
+      <!-- <div
+        data-v-c8d741ce=""
+        class="sticky-bar"
+        element="[object HTMLDivElement]"
+        style="transform: translateY(-100%);"
+      >
+        <div data-v-c8d741ce="" class="sticky-top">
+          <div data-v-c8d741ce="">
+            <img data-v-c8d741ce="" src="" />
+            <div data-v-c8d741ce="">
+              <h3 data-v-c8d741ce="">据家+养老</h3>
+              <p data-v-c8d741ce="">
+                行业人才培养输送，提供居家养老,适老化改造服务
+              </p>
+            </div>
+          </div>
+          <div data-v-c8d741ce="">
+            <img data-v-c8d741ce="" src="" />
+            <div data-v-c8d741ce="">
+              <h3 data-v-c8d741ce="">据家+零售</h3>
+              <p data-v-c8d741ce="">专业领域培训提升产品,一站式采购服务</p>
+            </div>
+          </div>
+        </div>
+        <div data-v-c8d741ce="" class="sticky-bot">
+          <div data-v-c8d741ce="">
+            <img data-v-c8d741ce="" src="" />
+            <h4 data-v-c8d741ce="">10年*月教育培训经验</h4>
+          </div>
+          <div data-v-c8d741ce="">
+            <img data-v-c8d741ce="" src="" />
+            <h4 data-v-c8d741ce="">提供5212门课程</h4>
+          </div>
+          <div data-v-c8d741ce="">
+            <img data-v-c8d741ce="" src="" />
+            <h4 data-v-c8d741ce="">提供2000就业推荐</h4>
+          </div>
+          <div data-v-c8d741ce="">
+            <img data-v-c8d741ce="" src="" />
+            <h4 data-v-c8d741ce="">5000位名师合作</h4>
+          </div>
+          <div data-v-c8d741ce="">
+            <img data-v-c8d741ce="" src="" />
+            <h4 data-v-c8d741ce="">服务20000学员</h4>
+          </div>
+          <div data-v-c8d741ce="">
+            <img data-v-c8d741ce="" src="" />
+            <h4 data-v-c8d741ce="">服务1000家企业</h4>
+          </div>
+        </div>
+      </div> -->
+      <!--遮罩结束  -->
+      <!-- footer -->
+      <div class="wk-footer">
+        <div class="footer-wp clearfix">
+          <div class="footer-top">
+            <div class="logo"><img src="" alt="logo" /></div>
+            <div class="footer-center">
+              <ul>
+                <li class="footer-item">
+                  <div class="footer-title">关于我们</div>
+                  <div class="footer-text">
+                    <a href="#">免责声明</a>
+                  </div>
+                </li>
+                <li class="footer-item">
+                  <div class="footer-title">帮助中心</div>
+                  <div class="footer-text">
+                    <a href="#">会员权益</a>
+                    <a href="#">如何观看</a>
+                    <a href="#">常见问题</a>
+                  </div>
+                </li>
+                <li class="footer-item">
+                  <div class="footer-title">商务合作</div>
+                  <div class="footer-text">
+                    <a href="#">渠道加盟</a>
+                    <a href="#">讲师合作</a>
+                  </div>
+                </li>
+                <li class="footer-item">
+                  <div class="footer-title">联系我们</div>
+                  <div class="footer-text">
+                    <a href="#">客服热线 : 0633-2215282</a>
+                    <a href="#"
+                      >联系地址 : 日照市东港区人力资源服务产业园12楼</a
+                    >
+                  </div>
+                </li>
+              </ul>
+              <div class="code-img">
+                <img src="" alt="二维码" class="code-img" />
+                <img src="" class="code-img" />
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-down">
+            <div class="text">
+              Copyright2020© 据家微课.
+              日照市东港区杰出培训学校保留所有权利&nbsp;|&nbsp;
+              沪ICP备20003109号-1
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
